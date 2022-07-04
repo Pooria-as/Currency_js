@@ -1,0 +1,89 @@
+:root {
+    --primary-color: #5fbaa7;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background: hsla(335, 91%, 70%, 1);
+
+    background: linear-gradient(90deg, hsla(335, 91%, 70%, 1) 0%, hsla(49, 89%, 61%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(335, 91%, 70%, 1) 0%, hsla(49, 89%, 61%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(335, 91%, 70%, 1) 0%, hsla(49, 89%, 61%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#F86CA7", endColorstr="#F4D444", GradientType=1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+img {
+    width: 15rem;
+}
+
+h1 {
+    color: var(--primary-color);
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+p {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 3rem;
+}
+
+.swap-container {
+    text-align: center;
+    margin: 1rem;
+}
+
+.rate {
+    text-align: center;
+    color: #fff;
+    outline: none;
+    border-radius: 5px;
+    border-color: transparent;
+    padding: 1rem 4rem;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    font-size: 20px;
+    margin: 2rem;
+}
+
+
+.swap-btn {
+    color: #fff;
+    outline: none;
+    border-radius: 5px;
+    border-color: transparent;
+    padding: 1rem 4rem;
+    cursor: pointer;
+    background-color: var(--primary-color);
+}
+
+.currency-one select,
+.currency-two select {
+    padding: .6rem 1rem;
+    outline: none;
+    cursor: pointer;
+    /* border: none; */
+}
+
+input {
+    /* padding: 1rem 2rem; */
+    text-align: right;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 30px;
+}
